@@ -6,3 +6,7 @@ echo "Employee is present"
 else
 echo "Employee Absent"
 fi
+empRatePerHr=20; 
+empHrs=8;
+salary=$(($empHrs*$empRatePerHr));
+echo "$salary" 
