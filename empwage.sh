@@ -1,2 +1,8 @@
+echo "Welcome To The Employee Wage Computation Program"
 
-echo "welcome to employee wage computation program"
+if [ $((RANDOM%3)) ]
+then
+echo "Employee is present" 
+else
+echo "Employee Absent"
+fi
